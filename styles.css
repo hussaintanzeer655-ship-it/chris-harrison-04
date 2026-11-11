@@ -1,0 +1,9 @@
+/* reuse base plus form tweaks */
+:root{--bg:#f6f6f6;--fg:#111;--card:#fff;--accent:#3a7bd5}
+body{background:var(--bg);color:var(--fg)}
+.site-header{position:sticky;top:0;background:#fff;border-bottom:1px solid #ddd;padding:10px 14px}
+.panel{margin:16px auto;padding:16px;max-width:720px;border-radius:8px;background:var(--card);border:1px solid #eee}
+form{display:grid;gap:8px}
+input,textarea{padding:8px;border-radius:6px;border:1px solid #ccc}
+button{background:var(--accent);color:#fff;border:0;border-radius:6px;padding:8px 12px;cursor:pointer}
+.note{min-height:1em}
